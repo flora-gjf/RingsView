@@ -6,7 +6,7 @@
 
 ### 效果
 
-![](http://cgacf.img48.wal8.com/img48/562489_20161127164757/148023650165.gif)
+![](http://upload.ouliu.net/i/2016112709044403b7g.gif)
 
 ### 属性
 
@@ -14,3 +14,5 @@
 ### 参考链接
 
 [DiffuseView](https://github.com/Airsaid/DiffuseView)
+
+
