@@ -22,8 +22,8 @@
 |diffuse_coreColor | 中心圆颜色 |
 |diffuse_coreImage |中心圆图片 |
 |diffuse_coreRadius |中心圆半径 | 
-|rings_isOval  | 扩散圆是否为椭圆｜
-|rings_isCenterOval | 中心位置是否为椭圆｜
+|rings_isOval  | 扩散圆是否为椭圆 |
+|rings_isCenterOval | 中心位置是否为椭圆|
 |rings_isRing | 是否以圆环形式扩散 |
 |rings_spaceColor | 填充圆颜色：建议为屏幕背景色 默认为白色 |
 |rings_ringWidth |圆环宽度 |
