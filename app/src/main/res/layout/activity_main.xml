@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.gjf.rings.ringsview.RingsView
+        android:id="@+id/rv_rings_circle"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:diffuse_color="@color/yellow"
+        app:diffuse_coreColor="@color/blue"
+        app:diffuse_coreRadius="10dp"
+        app:rings_num="5"
+        app:rings_isRing="true"
+        app:rings_ringWidth="2dp"
+        app:rings_spaceColor="@color/white" />
+
+    <com.gjf.rings.ringsview.RingsView
+        android:id="@+id/rv_rings_oval"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        app:diffuse_color="@color/yellow"
+        app:diffuse_coreColor="@color/blue"
+        app:rings_centerOvalHeight="10dp"
+        app:rings_centerOvalWidth="20dp"
+        app:rings_isCenterOval="true"
+        app:rings_isOval="true"
+        app:rings_isRing="true"
+        app:rings_num="5"
+        app:rings_ovalScale="0.5"
+        app:rings_ringWidth="2dp"
+        app:rings_spaceColor="@color/white" />
+
+    <com.gjf.rings.ringsview.RingsView
+        android:id="@+id/rv_circle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:diffuse_color="@color/yellow"
+        app:diffuse_coreColor="@color/blue"
+        app:diffuse_coreRadius="10dp" />
+
+    <com.gjf.rings.ringsview.RingsView
+        android:id="@+id/rv_oval"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        app:diffuse_color="@color/yellow"
+        app:diffuse_coreColor="@color/blue"
+        app:rings_centerOvalHeight="20dp"
+        app:rings_centerOvalWidth="20dp"
+        app:rings_isCenterOval="true"
+        app:rings_isOval="true"
+        app:rings_isRing="false"
+        app:rings_ovalScale="0.5" />
+
+</LinearLayout>

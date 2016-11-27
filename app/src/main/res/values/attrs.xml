@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RingsView">
+        <!--扩散圆颜色-->
+        <attr name="diffuse_color" format="color" />
+        <!--中心圆颜色-->
+        <attr name="diffuse_coreColor" format="color" />
+        <!--中心圆图片-->
+        <attr name="diffuse_coreImage" format="reference" />
+        <!--中心圆半径-->
+        <attr name="diffuse_coreRadius" format="dimension" />
+
+        <!--新增-->
+
+        <!--扩散圆是否为椭圆-->
+        <attr name="rings_isOval" format="boolean" />
+        <!--扩散椭圆的矩形外接矩形的 高／宽-->
+        <attr name="rings_ovalScale" format="float" />
+        <!--中心位置是否为椭圆-->
+        <attr name="rings_isCenterOval" format="boolean" />
+        <!--中心椭圆的外接矩形的宽-->
+        <attr name="rings_centerOvalWidth" format="dimension" />
+        <!--中心椭圆的外接矩形的高-->
+        <attr name="rings_centerOvalHeight" format="dimension" />
+        <!--扩散圆的最大个数：扩散范围内可同时出现的最多圆数-->
+        <attr name="rings_num" format="integer" />
+
+        <!--是否为圆环-->
+        <attr name="rings_isRing" format="boolean" />
+        <!--圆环宽度-->
+        <attr name="rings_ringWidth" format="dimension" />
+        <!--填充圆颜色：建议为屏幕背景色 默认为白色-->
+        <attr name="rings_spaceColor" format="color" />
+
+    </declare-styleable>
+
+</resources>
